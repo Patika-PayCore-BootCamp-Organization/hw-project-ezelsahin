@@ -1,10 +1,12 @@
 package com.patika.paycore.test.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+
 //import javax.validation.constraints.NotBlank;
-import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -25,7 +27,7 @@ public class Movie {
 
     private String director;
 
-    private List<String> cast;
+    private String actors;
 
 
 }
